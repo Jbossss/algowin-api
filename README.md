@@ -4,13 +4,21 @@
 
 ## 简介
 
-**基于[XChange](http://knowm.org/open-source/xchange)编写**
+**基于[XChange](http://knowm.org/open-source/xchange)编写** XChange 是一个Java library，与60多个数字货币交易所api进行对接
 
-XChange 是一个Java library，与60多个数字货币交易所api进行对接，但紧紧只实现了个个交易所spot api 对接，AlgoWin Api 在此升级，实现了部分交易所的币本位,U本位永续,和期权,期货。
+**但紧紧只实现了个个交易所spot api 对接，AlgoWin Api 在此升级，实现了部分交易所的币本位,U本位永续,和期权,期货。**
 
 XChange github :https://github.com/knowm/XChange
 
 XChange 官网 :https://knowm.org/open-source/xchange/
+
+
+
+## AlgoWin Api WebSocket：
+
+基于AlgoWin Api的升级版 理想目标支持各家交易所所有的交易类型订阅，同样也只实现了一部分交易所,**一人的力量，时间有限,希望能对你有帮助**
+
+github： https://github.com/pwn2ownYearn/algowin-api-ws.git
 
 
 
@@ -20,7 +28,7 @@ XChange 官网 :https://knowm.org/open-source/xchange/
 
 **public MarketData：**
 
-+ Get OrderBook
++ Get OrderBook 
 
 + Get Depth
 + Get Ticker
@@ -78,7 +86,7 @@ StreamingParsingCurrencyPair parsing=huobi.getStreamingParsing().parsingCurrency
 
 
 
-#### Public Market Data
+#### Public Market Data 
 
 not require authentication:
 
@@ -103,7 +111,7 @@ MHAccountService accountService=huobi.getAccountService();
 accountService.getPosition(.....)
 ```
 
-#### Private Trader
+#### Private Trader 
 
 To use APIs which require authentication
 
@@ -119,4 +127,35 @@ To use APIs which require authentication
 
 
 
+## 编写
+
+在 `extends BaseMHExchange implements MHExchange`类实现交易类型导航
+
+Market Data 实现 `implements MHMarketDataService`
+
+Trader 实现`implements MHTradeService`
+
+Account Info 实现`implements MHAccountService`
+
+
+
+## 总结
+
+统一了各家交易所的触发和返回处理等，适用于跨平台量化交易，单一一两家交易所我认为完全没有必要，直接导入交易所提供的SDK就可，大费周折。
+
+**一个人的力量有限，用的哪写到哪，有问题和不解或错误需要纠正请随时留言，感谢**
+
+### 交流
+
++ Twitter @Jboss92198982
+
++ Qq: 2311423937
+
+  
+
+### **你的点赞是我最大的鼓舞**
+
+### **你的点赞是我最大的鼓舞**
+
+### **你的点赞是我最大的鼓舞**
 
