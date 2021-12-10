@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.knowm.xchange:xchange-core:5.0.1">
+    <CLASSES>
+      <root url="jar:///usr/local/Cellar/maven/repo/org/knowm/xchange/xchange-core/5.0.1/xchange-core-5.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///usr/local/Cellar/maven/repo/org/knowm/xchange/xchange-core/5.0.1/xchange-core-5.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///usr/local/Cellar/maven/repo/org/knowm/xchange/xchange-core/5.0.1/xchange-core-5.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="58coin" />
+        <module name="mh-deribit" />
+        <module name="mh-huobi" />
+        <module name="mh-bitget" />
+        <module name="mh-binance" />
+        <module name="mh-core" />
+        <module name="mh-bibox" />
+        <module name="mh-okex" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="58coin" target="1.8" />
+      <module name="mh-bibox" target="1.8" />
+      <module name="mh-binance" target="1.8" />
+      <module name="mh-bitget" target="1.8" />
+      <module name="mh-core" target="1.8" />
+      <module name="mh-deribit" target="1.8" />
+      <module name="mh-exchange-http" target="1.8" />
+      <module name="mh-huobi" target="1.8" />
+      <module name="mh-okex" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

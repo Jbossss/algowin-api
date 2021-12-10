@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mh-58coin/58coin.iml" filepath="$PROJECT_DIR$/mh-58coin/58coin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh-bibox/mh-bibox.iml" filepath="$PROJECT_DIR$/mh-bibox/mh-bibox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh-binance/mh-binance.iml" filepath="$PROJECT_DIR$/mh-binance/mh-binance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh-bitget/mh-bitget.iml" filepath="$PROJECT_DIR$/mh-bitget/mh-bitget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh-core/mh-core.iml" filepath="$PROJECT_DIR$/mh-core/mh-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh-deribit/mh-deribit.iml" filepath="$PROJECT_DIR$/mh-deribit/mh-deribit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh-exchange-http.iml" filepath="$PROJECT_DIR$/mh-exchange-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh-huobi/mh-huobi.iml" filepath="$PROJECT_DIR$/mh-huobi/mh-huobi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh-okex/mh-okex.iml" filepath="$PROJECT_DIR$/mh-okex/mh-okex.iml" />
+    </modules>
+  </component>
+</project>
